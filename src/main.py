@@ -30,10 +30,10 @@ def main(greeting):
 
     # for the aesthetic
     _ = prog_bar(
-        "Establishing connection to API...",
-        "Gathering Data...",
-        "Analyzing Data...",
-        "Outputting Data to Terminal...",
+        "🚀 :: Establishing connection to API...\n",
+        "🌐 :: Gathering Data...\n",
+        "🔍 :: Analyzing Data...\n",
+        "🧨 :: Outputting Data to Terminal...\n",
     )
 
     # fetch crypto data
@@ -57,9 +57,9 @@ def main(greeting):
     ]
 
     btc = n.red_text("\n 💰 Bitcoin Val: $" + str(crypto[0]) + " USD")
-    stdout(btc.strip())
+    stdout(btc)
     eth = n.red_text("\n 💰 Ethereum Val: $" + str(crypto[1]) + " USD")
-    stdout(eth.strip())
+    stdout(eth)
 
 
-main(n.purple_text("Welcome, V0idMatr1x!\n"))
+main(n.purple_text("👋 Welcome, V0idMatr1x!\n"))
