@@ -58,6 +58,10 @@ def main(greeting):
         cg.get_price(ids="tezos", vs_currencies="usd")["tezos"]["usd"],
     ]
 
+    # Panel Title
+
+    stdout(n.bold_text(n.green_text(">> Crypto Prices 📈" + "\n")))
+
     btc = n.red_text("\n 💰 Bitcoin Val: $" + str(crypto[0]) + " USD")
     stdout(btc)
     print(n.cyan_text("________________________________________________"))

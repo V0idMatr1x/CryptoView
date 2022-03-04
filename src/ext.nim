@@ -16,3 +16,7 @@ proc purple_text(text: string): string {.exportpy.} =
 
 proc cyan_text(text: string): string {.exportpy.} =
   return "[cyan]" & text
+
+
+proc bold_text(text: string): string {.exportpy.} =
+  return "[bold]" & text
