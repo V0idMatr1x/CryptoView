@@ -10,7 +10,7 @@ proc green_text(text: string): string {.exportpy.} =
   return "[green]" & text
 
 
-proc purple_text(text: string) : string {.exportpy.} =
+proc purple_text(text: string): string {.exportpy.} =
   return "[purple]" & text
 
 
