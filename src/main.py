@@ -5,6 +5,7 @@ from rich import print
 from pycoingecko import CoinGeckoAPI
 
 
+stdout = print
 # initialize CoinGeckoAPI
 cg = CoinGeckoAPI()
 
@@ -30,7 +31,7 @@ def prog_bar(d, c, a, e):
 
 
 def main(greeting):
-    print(greeting)
+    stdout(greeting)
 
     
     # for the aesthetic
@@ -62,9 +63,9 @@ def main(greeting):
     
     
     btc = n.red_text("\n 💰 Bitcoin Val: $" + str(crypto[0]) + " USD")
-    print(btc.strip())
+    stdout(btc.strip())
     eth = n.red_text("\n 💰 Ethereum Val: $" + str(crypto[1]) + " USD")
-    print(eth.strip())
+    stdout(eth.strip())
 
 
 main = main(n.purple_text(
