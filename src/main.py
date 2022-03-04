@@ -62,4 +62,4 @@ def main(greeting):
     stdout(eth.strip())
 
 
-main = main(n.purple_text("Welcome, V0idMatr1x!\n"))
+main(n.purple_text("Welcome, V0idMatr1x!\n"))
