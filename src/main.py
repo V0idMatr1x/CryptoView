@@ -1,3 +1,4 @@
+import os
 import time
 import nimporter, ext as n
 from rich.progress import Progress
@@ -35,6 +36,8 @@ def main(greeting):
         "🔍 :: Analyzing Data...\n",
         "🧨 :: Outputting Data to Terminal...\n",
     )
+    _ = os.system("clear")
+
 
     # fetch crypto data
     crypto = [
