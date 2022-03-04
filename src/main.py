@@ -59,7 +59,6 @@ def main(greeting):
     ]
 
     # Panel Title
-
     stdout(n.bold_text(n.green_text(">> Crypto Prices 📈" + "\n")))
 
     btc = n.red_text("\n 💰 Bitcoin Val: $" + str(crypto[0]) + " USD")
