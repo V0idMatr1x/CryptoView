@@ -1,7 +1,7 @@
 import nimpy
 
 
-# Text Colors
+# Text Styles
 proc red_text(text: string): string {.exportpy.} =
   return "[red]" & text
 
