@@ -38,7 +38,6 @@ def main(greeting):
     )
     _ = os.system("clear")
 
-
     # fetch crypto data
     crypto = [
         cg.get_price(ids="bitcoin", vs_currencies="usd")["bitcoin"]["usd"],
@@ -63,6 +62,30 @@ def main(greeting):
     stdout(btc)
     eth = n.red_text("\n 💰 Ethereum Val: $" + str(crypto[1]) + " USD")
     stdout(eth)
+    xrp = n.red_text("\n 💰 Ripple Val: $" + str(crypto[2]) + " USD")
+    stdout(xrp)
+    bch = n.red_text("\n 💰 Bitcoin Cash Val: $" + str(crypto[3]) + " USD")
+    stdout(bch)
+    ltc = n.red_text("\n 💰 Litecoin Val: $" + str(crypto[4]) + " USD")
+    stdout(ltc)
+    ada = n.red_text("\n 💰 Cardano Val: $" + str(crypto[5]) + " USD")
+    stdout(ada)
+    xlm = n.red_text("\n 💰 Stellar Val: $" + str(crypto[6]) + " USD")
+    stdout(xlm)
+    xmr = n.red_text("\n 💰 Monero Val: $" + str(crypto[7]) + " USD")
+    stdout(xmr)
+    dash = n.red_text("\n 💰 Dash Val: $" + str(crypto[8]) + " USD")
+    stdout(dash)
+    iota = n.red_text("\n 💰 Iota Val: $" + str(crypto[9]) + " USD")
+    stdout(iota)
+    ecl = n.red_text("\n 💰 Ethereum Classic Val: $" + str(crypto[10]) + " USD")
+    stdout(ecl)
+    nem = n.red_text("\n 💰 NEM Val: $" + str(crypto[11]) + " USD")
+    stdout(nem)
+    trx = n.red_text("\n 💰 Tron Val: $" + str(crypto[12]) + " USD")
+    stdout(trx)
+    tezos = n.red_text("\n 💰 Tezos Val: $" + str(crypto[13]) + " USD")
+    stdout(tezos)
 
 
 main(n.purple_text("👋 Welcome, V0idMatr1x!\n"))
