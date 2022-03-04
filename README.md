@@ -1,4 +1,4 @@
-# Crypto_Market_Viewer
+CryptermView
 ## A terminal utility for viewing the current price of various tokens. Written in Python &amp; Nim!
 
 ![screen](https://user-images.githubusercontent.com/88049272/156838526-74b76227-85f6-4186-8fc4-db1ac49741bb.png)
