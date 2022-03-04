@@ -23,11 +23,11 @@ def prog_bar(d, c, a, e):
         
         
         while not x.finished:
-            x.update(t1, advance=0.7)
-            x.update(t2, advance=0.9)
-            x.update(t3, advance=0.9)
-            x.update(t4, advance=0.5)
-            time.sleep(0.2)
+            x.update(t1, advance=0.09)
+            x.update(t2, advance=0.09)
+            x.update(t3, advance=0.09)
+            x.update(t4, advance=0.09)
+            time.sleep(0.02)
 
 
 def main(greeting):
