@@ -3,7 +3,7 @@ import osproc
 
 
 # Clear progress bars on data load
-proc clear(x: string): string {.exportpy.} =
+proc clear(x: string, y: bool): string {.exportpy.} =
   let clear_output = execCmd(x)
   discard clear_output
 
