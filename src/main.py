@@ -36,7 +36,7 @@ def main(greeting):
         "🔍 :: Analyzing Data...\n",
         "🎬 :: Outputting Data to Terminal...\n",
     )
-    _ = os.system("clear")
+    _ = n.clear("clear")
 
     # fetch crypto data
     crypto = [
