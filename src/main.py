@@ -1,4 +1,3 @@
-import os
 import time
 import nimporter, ext as n
 from rich.progress import Progress
