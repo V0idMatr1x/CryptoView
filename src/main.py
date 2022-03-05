@@ -28,7 +28,6 @@ def prog_bar(d, c, a, e):
 def main(greeting):
     stdout(greeting)
 
-    # for the aesthetic
     _ = prog_bar(
         "🚀 :: Establishing connection to API...\n",
         "🌎 :: Gathering Data...\n",

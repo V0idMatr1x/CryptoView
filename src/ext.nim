@@ -4,13 +4,13 @@ import osproc
 
 # Clear progress bars on data load
 proc clear(x: string): string {.exportpy.} =
-  let clear_output = execCmd(x)
-  discard clear_output
+    let clear_output = execCmd(x)
+    discard clear_output
 
 
 # Text Styles
 proc red_text(text: string): string {.exportpy.} =
-  return "[red]" & text
+  return ("[red]" & text)
 
 
 proc green_text(text: string): string {.exportpy.} =
