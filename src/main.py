@@ -85,4 +85,5 @@ def main(greeting):
     tezos = n.red_text("\n ꜩ Tezos Val: $" + str(crypto[9]) + " USD")
     stdout(tezos)
 
+
 main(n.purple_text(n.bold_text("🤖 Welcome, V0idMatr1x!\n")))
