@@ -18,9 +18,9 @@ def prog_bar(d, c, a, e):
         t4 = x.add_task(n.purple_text(e), total=14)
 
         while not x.finished:
-            x.update(t1, advance=0.09)
-            x.update(t2, advance=0.09)
-            x.update(t3, advance=0.09)
+            x.update(t1, advance=0.30)
+            x.update(t2, advance=0.20)
+            x.update(t3, advance=0.11)
             x.update(t4, advance=0.09)
             time.sleep(0.02)
 
