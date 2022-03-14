@@ -1,11 +1,10 @@
 import time
 import nimporter, ext as n
 from rich.progress import Progress
-from rich import print
+from rich import print as stdout
 from pycoingecko import CoinGeckoAPI
 
 
-stdout = print
 # initialize CoinGeckoAPI
 cg = CoinGeckoAPI()
 
