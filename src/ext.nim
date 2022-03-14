@@ -10,7 +10,7 @@ proc clear(x: string): string {.exportpy.} =
 
 # Text Styles
 proc red_text(text: string): string {.exportpy.} =
-  return ("[red]" & text)
+  return "[red]" & text
 
 
 proc green_text(text: string): string {.exportpy.} =
