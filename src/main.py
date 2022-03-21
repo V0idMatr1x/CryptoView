@@ -27,13 +27,13 @@ def prog_bar(d, c, a, e):
 def main(greeting):
     stdout(greeting)
 
-    _ = prog_bar(
+    prog_bar(
         "🚀 :: Establishing connection to API...\n",
         "🌎 :: Gathering Data...\n",
         "🔍 :: Analyzing Data...\n",
         "🎬 :: Outputting Data to Terminal...\n",
     )
-    _ = n.clear("clear")
+    n.clear("clear")
 
     # fetch crypto data
     crypto = [
