@@ -1,11 +1,10 @@
 import nimpy
-import osproc
+import run_exe
 
 
 # Clear progress bars on data load
 proc clear(x: string): string {.exportpy.} =
-    let clear_output = execCmd(x)
-    discard clear_output
+    run exe x
 
 
 # Text Styles
