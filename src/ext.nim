@@ -26,3 +26,7 @@ proc cyan_text(text: string): string {.exportpy.} =
 
 proc bold_text(text: string): string {.exportpy.} =
   return "[bold]" & text
+
+
+proc underline_text(text: string): string {.exportpy.} =
+  return "[underline]" & text

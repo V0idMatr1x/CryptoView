@@ -25,7 +25,7 @@ def prog_bar(d, c, a, e):
 
 
 def main(greeting):
-    stdout(greeting)
+    stdout(n.underline_text(greeting))
 
     prog_bar(
         "🚀 :: Establishing connection to API...\n",
