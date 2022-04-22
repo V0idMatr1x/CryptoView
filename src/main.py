@@ -9,12 +9,12 @@ from pycoingecko import CoinGeckoAPI
 cg = CoinGeckoAPI()
 
 
-def prog_bar(d, c, a, e):
+def prog_bar(p1, p2, p3, p4: str) -> str:
     with Progress() as x:
-        t1 = x.add_task(n.red_text(d), total=11)  # Task: 1
-        t2 = x.add_task(n.green_text(c), total=12)
-        t3 = x.add_task(n.cyan_text(a), total=13)
-        t4 = x.add_task(n.purple_text(e), total=14)
+        t1 = x.add_task(n.red_text(p1), total=11)  # Task: 1
+        t2 = x.add_task(n.green_text(p2), total=12)
+        t3 = x.add_task(n.cyan_text(p3), total=13)
+        t4 = x.add_task(n.purple_text(p4), total=14)
 
         while not x.finished:
             x.update(t1, advance=0.30)
@@ -24,7 +24,7 @@ def prog_bar(d, c, a, e):
             time.sleep(0.02)
 
 
-def main(greeting):
+def main(greeting: str) -> str:
     stdout(n.underline_text(greeting))
 
     prog_bar(
