@@ -1,4 +1,4 @@
-import run_exe / bridge
+import nimpy
 import run_exe
 
 
