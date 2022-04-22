@@ -53,7 +53,8 @@ def main(greeting: str) -> str:
 
     # Title
     stdout(n.bold_text(n.green_text(">> Crypto Prices 📈" + "\n")))
-
+    
+    # Format & Output
     btc = n.red_text("\n   ₿   Bitcoin Val: $" + str(crypto[0]) + " USD")
     stdout(btc)
     stdout(n.cyan_text("________________________________________________/"))
