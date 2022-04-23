@@ -5,7 +5,7 @@
 https://user-images.githubusercontent.com/88049272/164791628-881fdd8d-6a67-4180-8aaa-b1b27ac17dd8.mp4
 
 Configuration:
-  - `~/.zshrc`: `alias cv="cd ~/CryptermView/src && python3 main.py; ~" 
+  - `~/.zshrc`: `alias cv="cd ~/CryptermView/src && python3 main.py; ~"` 
   - `~/.bashrc`: `alias cv="cd ~/CryptermView/src && python3 main.py; ~`
 
 ### Dependencies
