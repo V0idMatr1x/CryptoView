@@ -17,5 +17,5 @@ https://user-images.githubusercontent.com/88049272/164791628-881fdd8d-6a67-4180-
   - runexe
 
 ### Requires
-Python3.10^
-Nim1.6.4^
+- Python3.10^
+- Nim1.6.4^
