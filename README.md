@@ -12,7 +12,7 @@ https://user-images.githubusercontent.com/88049272/164791628-881fdd8d-6a67-4180-
 - `$ cv`
 
 ### Dependencies
-  - Backend Powered by PyCoinGecko API
+  - Backend powered by PyCoinGecko API
   - Terminal Interface powered by Rich
   - Nimporter
   - Nimpy
