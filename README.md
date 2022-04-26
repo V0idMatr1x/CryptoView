@@ -13,7 +13,7 @@ https://user-images.githubusercontent.com/88049272/164791628-881fdd8d-6a67-4180-
   - This string is stored in the greeting parameter.
   - Replace `V0idMatrix` with `main(your name)`
     - Adding Coins
-     -  https://pypi.org/project/pycoingecko/
+      -  https://pypi.org/project/pycoingecko/
 
 ### Usage
 - `$ cv`
