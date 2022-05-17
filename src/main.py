@@ -9,7 +9,7 @@ from pycoingecko import CoinGeckoAPI
 cg = CoinGeckoAPI()
 
 
-def prog_bar(p1, p2, p3, p4: str) -> str:
+def prog_bar(p1, p2, p3, p4: str):
     with Progress() as x:
         t1 = x.add_task(n.red_text(p1), total=11)  # Task: 1
         t2 = x.add_task(n.green_text(p2), total=12)
@@ -24,7 +24,7 @@ def prog_bar(p1, p2, p3, p4: str) -> str:
             time.sleep(0.02)
 
 
-def main(greeting: str) -> str:
+def main(greeting: str):
     stdout(n.underline_text(greeting))
 
     prog_bar(
