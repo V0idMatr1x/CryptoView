@@ -1,4 +1,4 @@
-# CryptermView
+# CryptoView
 ## A terminal utility for viewing the current price of various tokens. Written in Python &amp; Nim!
 ### It was inspired by `curl rate.sx`
 
